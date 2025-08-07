@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/validacao.js"></script>
+</head>
+
+<body>
+    <div class="login-form">
+        <h3>LOGIN</h3>
+        <input type="email" id="email" onchange="validacao()" placeholder="Digite seu email">
+        <input type="password" id="senha" oninput="validacao()" placeholder="Digite sua senha">
+        <button type="button" id="btnentrar" class="solid" disabled="true" onclick="login()"> Entrar </button>
+        <button type="button" id="btnregistrar" onclick="registrar()"> Criar conta</button>
+    </div>
+
+
+
+</body>
+
+</html> 
